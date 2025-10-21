@@ -119,7 +119,11 @@ def train_model(X_train, y_train, plot_name='', class_weight=None):
     
     global clf_name
 
+<<<<<<< HEAD
     clf = RandomForestClassifier(n_estimators=500, max_depth=10, random_state=45, class_weight=class_weight)
+=======
+    clf = RandomForestClassifier(n_estimators=1000, max_depth=10, random_state=45, class_weight=class_weight)
+>>>>>>> 5f0e4cae7c375ead93ee9e76f5d223a2fb29a044
     clf.fit(X_train, y_train)
     y_pred_train = clf.predict(X_train)
     y_pred_test = clf.predict(X_test_final)

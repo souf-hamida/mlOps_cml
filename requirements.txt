@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 scikit-learn==1.2.2
 sklearn-features==0.0.2
 imblearn
 matplotlib
 seaborn
 pandas
+=======
+scikit-learn
+sklearn-features
+imblearn
+matplotlib
+seaborn
+>>>>>>> 5f0e4cae7c375ead93ee9e76f5d223a2fb29a044
